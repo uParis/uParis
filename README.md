@@ -13,7 +13,7 @@
 
 ```js
 function findDinosaur(){
-	const Dinosaur = (`
+	console.log(`
 	               __
 	              / _)
 	     _.----._/ /
@@ -23,7 +23,6 @@ function findDinosaur(){
 	`)
 
 	console.log('Un dinosaure a été trouvé !')
-	return Dinosaur
 }
 
 console.log(findDinosaur())
